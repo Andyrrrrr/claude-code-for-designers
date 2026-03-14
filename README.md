@@ -1,31 +1,16 @@
-# Claude Code for Designers
+# React + Vite
 
-A practical guide to AI-assisted development for product and UX designers — built entirely with Claude Code.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What This Is
+Currently, two official plugins are available:
 
-A single-page presentation that introduces designers to Claude Code. It covers foundational concepts (files, terminal, git), Claude Code workflows (CLAUDE.md, context window, plan mode, prompts), and practical next steps.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-The presentation itself is the demo. It's a single HTML file with no build tools, no frameworks, and no dependencies beyond Google Fonts.
+## React Compiler
 
-## Viewing the Presentation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-1. Clone or download this repo
-2. Open `index.html` in any modern browser
-3. Use arrow keys to navigate (or tap/swipe on mobile)
+## Expanding the ESLint configuration
 
-## Navigation
-
-- **Arrow keys** or **Space** — move between slides
-- **Escape** — toggle table of contents
-- **Menu icon** (top-left) — open table of contents
-- **Swipe** or **tap edges** — navigate on touch devices
-
-## Built With
-
-This project was built from scratch using [Claude Code](https://docs.anthropic.com/en/docs/claude-code). The repo structure, commit history, and `CLAUDE.md` file are all real examples of the workflows discussed in the presentation.
-
-## Links
-
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [Install Claude Code](https://docs.anthropic.com/en/docs/claude-code/getting-started)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

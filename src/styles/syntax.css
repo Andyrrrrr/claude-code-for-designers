@@ -1,0 +1,9 @@
+/* Syntax highlighting tokens for code blocks */
+.tk { color: var(--color-accent); }
+.ts { color: var(--color-string); }
+.tc { color: var(--color-text-dim); font-style: italic; }
+.tt { color: #7ec699; }
+.ta { color: #d19a66; }
+.tp { color: var(--color-text-dim); }
+.tn { color: #d19a66; }
+.anno { color: var(--color-text-dim); font-style: italic; }
