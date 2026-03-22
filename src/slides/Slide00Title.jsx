@@ -10,9 +10,9 @@ export default function Slide00Title({ isActive }) {
           Claude Code<br />for <span className="text-accent">designers</span>
         </h1>
         <p className="font-body text-[1.15rem] text-text-muted mt-6 font-light">
-          A practical guide to AI-assisted development
+          How to get started making cool shit and going fast
         </p>
-        <p className="font-mono text-xs text-text-dim mt-24 tracking-wide">
+        <p className="font-mono text-sm text-text-dim mt-24 tracking-wide">
           Use arrow keys or tap to navigate &rarr;
         </p>
       </SlideInner>

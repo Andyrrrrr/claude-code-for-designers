@@ -6,11 +6,11 @@ import SlideBody from '../components/SlideBody'
 import Terminal from '../components/Terminal'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide03Terminal({ isActive }) {
+export default function Slide04Terminal({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="03" />
+        <SlideNumber label="04" />
         <SlideTitle>The terminal</SlideTitle>
         <SlideBody>
           The terminal is just another way to talk to your computer &mdash; by <strong>typing instead of clicking</strong>. You don't need to master it. You just need to recognize what Claude Code is doing when you see terminal commands flash by.
@@ -24,13 +24,12 @@ export default function Slide03Terminal({ isActive }) {
           Claude Code works in both the <strong>desktop app</strong> and the terminal. I recommend starting with the <strong>Claude desktop app</strong> &mdash; it's the easiest way to get going. But it can also run directly in your terminal if you prefer.
         </SlideBody>
         <SlideBody style={{ marginTop: '1.5rem' }}>
-          If you want to go further: <strong>Warp</strong> is a terminal with built-in AI assistance and predictive text, and <strong>Cursor</strong> is a code editor for browsing project files. Both have free versions.
+          <strong>Warp</strong> is a terminal app with built-in AI assistance, predictive text, and some other nice quality-of-life improvements over the Mac terminal app. It has a free tier.
         </SlideBody>
         <SlideLinks links={[
           { href: 'https://claude.ai/download', label: 'Download the Claude desktop app' },
           { href: 'https://docs.anthropic.com/en/docs/claude-code/getting-started', label: 'Claude Code setup guide' },
           { href: 'https://www.warp.dev/', label: 'Warp terminal' },
-          { href: 'https://cursor.sh/', label: 'Cursor code editor' },
         ]} />
       </SlideInner>
     </SlideShell>

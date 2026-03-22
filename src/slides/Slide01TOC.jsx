@@ -6,9 +6,9 @@ import SlideTitle from '../components/SlideTitle'
 const TOC_ITEMS = [
   [2, 'What is an app, really?'],
   [11, 'Figma MCP'],
-  [3, 'The terminal'],
+  [3, 'Reading code'],
   [12, 'Getting more from Figma MCP'],
-  [4, 'Reading code'],
+  [4, 'The terminal'],
   [13, 'Skills'],
   [5, 'Git: your safety net'],
   [14, 'The feedback loop'],

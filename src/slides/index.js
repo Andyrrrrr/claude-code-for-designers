@@ -1,8 +1,8 @@
 import Slide00Title from './Slide00Title'
 import Slide01TOC from './Slide01TOC'
 import Slide02WhatIsAnApp from './Slide02WhatIsAnApp'
-import Slide03Terminal from './Slide03Terminal'
-import Slide04ReadingCode from './Slide04ReadingCode'
+import Slide03ReadingCode from './Slide03ReadingCode'
+import Slide04Terminal from './Slide04Terminal'
 import Slide05Git from './Slide05Git'
 import Slide06NewEmployee from './Slide06NewEmployee'
 import Slide07ClaudeMd from './Slide07ClaudeMd'
@@ -22,8 +22,8 @@ export const slides = [
   Slide00Title,
   Slide01TOC,
   Slide02WhatIsAnApp,
-  Slide03Terminal,
-  Slide04ReadingCode,
+  Slide03ReadingCode,
+  Slide04Terminal,
   Slide05Git,
   Slide06NewEmployee,
   Slide07ClaudeMd,
