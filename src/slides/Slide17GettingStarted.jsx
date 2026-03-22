@@ -7,11 +7,11 @@ import Checklist from '../components/Checklist'
 import Note from '../components/Note'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide18GettingStarted({ isActive }) {
+export default function Slide17GettingStarted({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="18" />
+        <SlideNumber label="17" />
         <SlideTitle>Getting started</SlideTitle>
         <SlideBody>Do this today:</SlideBody>
         <Checklist items={[

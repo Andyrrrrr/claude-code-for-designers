@@ -22,13 +22,10 @@ export default function Slide10PromptSpec({ isActive }) {
             content: '\u201CMake a login page\u201D',
           }}
           good={{
-            label: 'Design-quality prompt',
+            label: 'Better prompt',
             content: '\u201CCreate a login page with an email and password field, a primary \'Sign In\' button using our brand blue (#2563eb), a \'Forgot password?\' link below, and a \'Create account\' link at the bottom. Use 16px body text, 24px heading. Center everything vertically with max-width 400px.\u201D',
           }}
         />
-        <Callout style={{ marginTop: '2rem' }}>
-          You already write specs like this for developers. Now you're just writing them for a different kind of developer.
-        </Callout>
         <SlideLinks links={[
           { href: 'https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering', label: 'Anthropic: prompt engineering guide' },
         ]} />

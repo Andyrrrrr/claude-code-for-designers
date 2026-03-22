@@ -5,11 +5,11 @@ import SlideTitle from '../components/SlideTitle'
 import SlideBody from '../components/SlideBody'
 import FutureGrid from '../components/FutureGrid'
 
-export default function Slide16WhatYouCanBuild({ isActive }) {
+export default function Slide15WhatYouCanBuild({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="16" />
+        <SlideNumber label="15" />
         <SlideTitle>What you can build</SlideTitle>
         <FutureGrid cards={[
           { title: 'Design systems', description: 'Turn your design tokens and components into real, working code that developers can use directly.' },

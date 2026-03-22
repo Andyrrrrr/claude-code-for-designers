@@ -41,6 +41,7 @@ export default function Slide07ClaudeMd({ isActive }) {
         </Callout>
         <SlideLinks links={[
           { href: 'https://docs.anthropic.com/en/docs/claude-code/memory', label: 'Claude Code: memory & CLAUDE.md' },
+          { href: 'https://www.markdownguide.org/cheat-sheet/', label: 'Markdown formatting cheat sheet' },
         ]} />
       </SlideInner>
     </SlideShell>

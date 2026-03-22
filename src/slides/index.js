@@ -12,11 +12,10 @@ import Slide10PromptSpec from './Slide10PromptSpec'
 import Slide11FigmaMCP from './Slide11FigmaMCP'
 import Slide12FigmaMCPDeep from './Slide12FigmaMCPDeep'
 import Slide13Skills from './Slide13Skills'
-import Slide14FeedbackLoop from './Slide14FeedbackLoop'
-import Slide15Harness from './Slide15Harness'
-import Slide16WhatYouCanBuild from './Slide16WhatYouCanBuild'
-import Slide17Alternatives from './Slide17Alternatives'
-import Slide18GettingStarted from './Slide18GettingStarted'
+import Slide14Harness from './Slide14Harness'
+import Slide15WhatYouCanBuild from './Slide15WhatYouCanBuild'
+import Slide16Alternatives from './Slide16Alternatives'
+import Slide17GettingStarted from './Slide17GettingStarted'
 
 export const slides = [
   Slide00Title,
@@ -33,9 +32,8 @@ export const slides = [
   Slide11FigmaMCP,
   Slide12FigmaMCPDeep,
   Slide13Skills,
-  Slide14FeedbackLoop,
-  Slide15Harness,
-  Slide16WhatYouCanBuild,
-  Slide17Alternatives,
-  Slide18GettingStarted,
+  Slide14Harness,
+  Slide15WhatYouCanBuild,
+  Slide16Alternatives,
+  Slide17GettingStarted,
 ]

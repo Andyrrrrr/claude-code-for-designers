@@ -9,7 +9,7 @@ import SlideLinks from '../components/SlideLinks'
 
 export default function Slide13Skills({ isActive }) {
   return (
-    <SlideShell isActive={isActive}>
+    <SlideShell isActive={isActive} className="justify-start pt-32 max-md:pt-24">
       <SlideInner isActive={isActive}>
         <SlideNumber label="13" />
         <SlideTitle>Skills</SlideTitle>
@@ -30,9 +30,6 @@ export default function Slide13Skills({ isActive }) {
         <SlideBody style={{ marginTop: '1.5rem' }}>
           Skills can be <strong>global</strong> (available in all Claude Code sessions) or <strong>local</strong> to a specific project. They're text files &mdash; similar to docs in your <code>/docs</code> folder &mdash; but the key difference is skills are <strong>triggered by commands</strong> and designed as reusable actions, not just reference material.
         </SlideBody>
-        <Callout>
-          Skills are what make Claude Code feel like it truly understands your project &mdash; not just the code, but <strong>how your team works</strong>.
-        </Callout>
         <SlideLinks links={[
           { href: 'https://skills.sh/', label: 'Browse and install community skills' },
           { href: 'https://docs.anthropic.com/en/docs/claude-code/skills', label: 'Claude Code: skills documentation' },

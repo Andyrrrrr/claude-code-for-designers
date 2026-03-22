@@ -7,11 +7,11 @@ import ConceptList from '../components/ConceptList'
 import Callout from '../components/Callout'
 import Note from '../components/Note'
 
-export default function Slide17Alternatives({ isActive }) {
+export default function Slide16Alternatives({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="17" />
+        <SlideNumber label="16" />
         <SlideTitle>Claude Code vs alternatives</SlideTitle>
         <SlideBody>
           You'll hear about other AI coding tools. Here's how they compare:

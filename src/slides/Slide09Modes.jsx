@@ -19,14 +19,11 @@ export default function Slide09Modes({ isActive }) {
         <ConceptList items={[
           { num: '1', content: <><strong>Plan mode</strong> &mdash; Claude outlines its approach before writing any code. Like asking a developer to write a tech spec first. Use for anything non-trivial.</> },
           { num: '2', content: <><strong>Auto-accept edits</strong> &mdash; Claude applies file changes without asking you to approve each one. Faster, but you give up the chance to review before changes are made.</> },
-          { num: '3', content: <><strong>Bypass permissions</strong> &mdash; Claude runs commands (installs, scripts, etc.) without asking permission first. You need to enable this in settings. <em>Use with caution</em> &mdash; a mistake here can affect your actual system.</> },
+          { num: '3', content: <><strong>Bypass permissions</strong> &mdash; Claude runs commands (installs, scripts, etc.) without asking permission first. You need to enable this in settings. <strong>Use with caution</strong> &mdash; a mistake here can affect your actual system.</> },
         ]} />
         <Callout>
-          Start with plan mode on and permissions on. As you build trust, you can loosen the guardrails. <strong>Think before you act</strong> applies to AI just as much as design.
+          Really — don't just get used to using bypass permissions all the time. It really can mess up your system if something goes wrong.
         </Callout>
-        <SlideLinks links={[
-          { href: 'https://docs.anthropic.com/en/docs/claude-code/interactive-usage', label: 'Claude Code: interactive usage' },
-        ]} />
       </SlideInner>
     </SlideShell>
   )

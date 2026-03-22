@@ -15,7 +15,7 @@ export default function Slide05Git({ isActive }) {
       <SlideInner isActive={isActive}>
         <SlideNumber label="05" />
         <SlideTitle>Git: your safety net</SlideTitle>
-        <SlideBody>Git is a <strong>save system</strong> for your project. Like save points in a video game.</SlideBody>
+        <SlideBody>Git is a <strong>save system</strong> for your project. Like save points in a video game. Nice when you're working by yourself, <strong>necessary when working with a team</strong>.</SlideBody>
         <Timeline nodes={[
           { label: 'Initial commit' },
           { label: 'Add header' },

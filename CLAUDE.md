@@ -8,7 +8,7 @@ Slide deck introducing designers to Claude Code. React + Vite + Tailwind CSS v4.
 - All styling uses inline Tailwind v4 utility classes (no CSS modules, no styled-components)
 - Design tokens defined in `src/styles/tokens.css` using Tailwind's `@theme` directive
 - Minimal global CSS in `base.css` for resets, scrollbar, and selection styles
-- Each slide is a standalone component in `src/slides/` (numbered `Slide00` through `Slide18`)
+- Each slide is a standalone component in `src/slides/` (numbered `Slide00` through `Slide17`)
 - Reusable layout/content components live in `src/components/`
 
 ## Key files

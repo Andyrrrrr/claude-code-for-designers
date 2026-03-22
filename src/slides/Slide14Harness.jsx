@@ -7,11 +7,11 @@ import ConceptList from '../components/ConceptList'
 import Callout from '../components/Callout'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide15Harness({ isActive }) {
+export default function Slide14Harness({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="15" />
+        <SlideNumber label="14" />
         <SlideTitle>When things go wrong</SlideTitle>
         <SlideBody>
           When Claude Code produces bad results, resist the urge to just <strong>&ldquo;prompt harder.&rdquo;</strong> Instead, ask: <strong>how can I improve the harness?</strong>
