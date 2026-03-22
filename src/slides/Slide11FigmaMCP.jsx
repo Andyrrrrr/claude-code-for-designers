@@ -7,11 +7,11 @@ import FlowDiagram from '../components/FlowDiagram'
 import Callout from '../components/Callout'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide10FigmaMCP({ isActive }) {
+export default function Slide11FigmaMCP({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="10" />
+        <SlideNumber label="11" />
         <SlideTitle>Figma MCP</SlideTitle>
         <SlideBody>Claude Code can <strong>look directly at your Figma designs</strong>.</SlideBody>
         <SlideBody>
@@ -23,7 +23,7 @@ export default function Slide10FigmaMCP({ isActive }) {
         </SlideBody>
         <Callout>This is where your existing Figma workflow connects directly to code output.</Callout>
         <SlideLinks links={[
-          { href: 'https://help.figma.com/hc/en-us/articles/32132817629975-Use-the-Figma-MCP-Server', label: 'Figma: MCP server setup' },
+          { href: 'https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server', label: 'Figma: MCP server setup' },
           { href: 'https://docs.anthropic.com/en/docs/claude-code/mcp', label: 'Claude Code: MCP integrations' },
         ]} />
       </SlideInner>

@@ -6,11 +6,11 @@ import SlideBody from '../components/SlideBody'
 import LoopSteps from '../components/LoopSteps'
 import ConceptList from '../components/ConceptList'
 
-export default function Slide13FeedbackLoop({ isActive }) {
+export default function Slide14FeedbackLoop({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="13" />
+        <SlideNumber label="14" />
         <SlideTitle>The feedback loop</SlideTitle>
         <SlideBody>
           Working with Claude Code is an <strong>iterative conversation</strong>, just like a design critique.

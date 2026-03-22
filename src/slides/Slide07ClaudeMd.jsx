@@ -7,32 +7,33 @@ import CodeBlock from '../components/CodeBlock'
 import Callout from '../components/Callout'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide06ClaudeMd({ isActive }) {
+export default function Slide07ClaudeMd({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="06" />
+        <SlideNumber label="07" />
         <SlideTitle>CLAUDE.md &mdash; your onboarding doc</SlideTitle>
         <SlideBody>
           This is the document Claude Code reads at the start of every session. It's your project's <strong>institutional memory</strong>.
         </SlideBody>
         <CodeBlock>
-          <span className="tk"># Project: My App</span>{'\n'}
-          {'\n'}
-          <span className="tk">## What this is</span>{'\n'}
-          A mobile app for tracking daily habits.{'\n'}
-          {'\n'}
-          <span className="tk">## Tech stack</span>{'\n'}
-          <span className="tp">-</span> React Native + Expo{'\n'}
-          <span className="tp">-</span> TypeScript{'\n'}
-          {'\n'}
-          <span className="tk">## Documentation</span>{'\n'}
-          <span className="tp">-</span> See /docs/architecture.md{'\n'}
-          <span className="tp">-</span> See /docs/design-system.md{'\n'}
-          <span className="tp">-</span> See /docs/conventions.md{'\n'}
-          {'\n'}
-          <span className="tk">## Rules</span>{'\n'}
-          <span className="tp">-</span> Proactively maintain docs in /docs{'\n'}
+          <span className="tk"># Project: My App</span><br />
+          <br />
+          <span className="tk">## What this is</span><br />
+          A mobile app for tracking daily habits.<br />
+          <br />
+          <span className="tk">## Tech stack</span><br />
+          <span className="tp">-</span> React Native + Expo<br />
+          <span className="tp">-</span> TypeScript<br />
+          <br />
+          <span className="tk">## Documentation</span><br />
+          <span className="tp">-</span> See /docs/architecture.md<br />
+          <span className="tp">-</span> See /docs/design-system.md<br />
+          <span className="tp">-</span> See /docs/conventions.md<br />
+          <br />
+          <span className="tk">## Rules</span><br />
+          <span className="tp">-</span> This is a prototype — no backend needed<br />
+          <span className="tp">-</span> Proactively maintain docs in /docs<br />
           <span className="tp">-</span> Update docs when making changes
         </CodeBlock>
         <Callout>

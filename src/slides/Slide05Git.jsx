@@ -9,11 +9,11 @@ import Callout from '../components/Callout'
 import Note from '../components/Note'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide04Git({ isActive }) {
+export default function Slide05Git({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="04" />
+        <SlideNumber label="05" />
         <SlideTitle>Git: your safety net</SlideTitle>
         <SlideBody>Git is a <strong>save system</strong> for your project. Like save points in a video game.</SlideBody>
         <Timeline nodes={[

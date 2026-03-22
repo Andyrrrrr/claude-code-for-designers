@@ -5,11 +5,11 @@ import SlideTitle from '../components/SlideTitle'
 import SlideBody from '../components/SlideBody'
 import BigQuote from '../components/BigQuote'
 
-export default function Slide05NewEmployee({ isActive }) {
+export default function Slide06NewEmployee({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="05" />
+        <SlideNumber label="06" />
         <SlideTitle>The new employee problem</SlideTitle>
         <SlideBody>
           Every Claude Code session is like a brilliant but <strong>amnesiac contractor</strong> showing up to work.

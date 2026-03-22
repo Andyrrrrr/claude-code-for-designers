@@ -23,9 +23,14 @@ export default function Slide03Terminal({ isActive }) {
         <SlideBody style={{ marginTop: '1.5rem' }}>
           Claude Code works in both the <strong>desktop app</strong> and the terminal. I recommend starting with the <strong>Claude desktop app</strong> &mdash; it's the easiest way to get going. But it can also run directly in your terminal if you prefer.
         </SlideBody>
+        <SlideBody style={{ marginTop: '1.5rem' }}>
+          If you want to go further: <strong>Warp</strong> is a terminal with built-in AI assistance and predictive text, and <strong>Cursor</strong> is a code editor for browsing project files. Both have free versions.
+        </SlideBody>
         <SlideLinks links={[
           { href: 'https://claude.ai/download', label: 'Download the Claude desktop app' },
           { href: 'https://docs.anthropic.com/en/docs/claude-code/getting-started', label: 'Claude Code setup guide' },
+          { href: 'https://www.warp.dev/', label: 'Warp terminal' },
+          { href: 'https://cursor.sh/', label: 'Cursor code editor' },
         ]} />
       </SlideInner>
     </SlideShell>

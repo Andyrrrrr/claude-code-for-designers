@@ -7,11 +7,11 @@ import Comparison from '../components/Comparison'
 import Callout from '../components/Callout'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide09PromptSpec({ isActive }) {
+export default function Slide10PromptSpec({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="09" />
+        <SlideNumber label="10" />
         <SlideTitle>Prompt as design spec</SlideTitle>
         <SlideBody>
           The quality of Claude Code's output is directly proportional to the quality of your prompt. <strong>Designers are already good at this</strong> &mdash; you just need to apply it differently.

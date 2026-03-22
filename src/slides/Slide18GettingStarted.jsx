@@ -7,11 +7,11 @@ import Checklist from '../components/Checklist'
 import Note from '../components/Note'
 import SlideLinks from '../components/SlideLinks'
 
-export default function Slide15GettingStarted({ isActive }) {
+export default function Slide18GettingStarted({ isActive }) {
   return (
     <SlideShell isActive={isActive}>
       <SlideInner isActive={isActive}>
-        <SlideNumber label="15" />
+        <SlideNumber label="18" />
         <SlideTitle>Getting started</SlideTitle>
         <SlideBody>Do this today:</SlideBody>
         <Checklist items={[
@@ -25,12 +25,16 @@ export default function Slide15GettingStarted({ isActive }) {
         <Note style={{ marginTop: '1.5rem' }}>
           You can also run Claude Code directly from your terminal for a more hands-on experience.
         </Note>
+        <Note style={{ marginTop: '0.75rem' }}>
+          <strong>Questions? Stuck?</strong> Ask Claude chat &mdash; it can help you troubleshoot, explain error messages, and suggest next steps.
+        </Note>
         <SlideLinks
           style={{ marginTop: '2rem' }}
           links={[
             { href: 'https://claude.ai/download', label: 'Download the Claude desktop app' },
             { href: 'https://docs.anthropic.com/en/docs/claude-code', label: 'Claude Code documentation' },
             { href: 'https://docs.anthropic.com/en/docs/claude-code/getting-started', label: 'Getting started guide' },
+            { href: 'https://github.com/Andyrrrrr/claude-code-for-designers', label: 'This presentation on GitHub' },
           ]}
         />
       </SlideInner>

@@ -23,7 +23,7 @@ export default function Slide02WhatIsAnApp({ isActive }) {
           <div><span className="text-text-dim">└── </span><span className="text-text-muted">script.js</span></div>
         </FileTree>
         <Callout>
-          This presentation you're looking at right now? It's a <strong>single HTML file</strong>. You can open it in any text editor and read it.
+          This presentation you're looking at right now? Each slide is a <strong>single text file</strong> with components dropped in for each block type. You can open the whole folder in a text editor and take a look.
         </Callout>
         <SlideLinks links={[
           { href: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web', label: 'MDN: Getting started with the web' },
